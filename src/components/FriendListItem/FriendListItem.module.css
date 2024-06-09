@@ -1,0 +1,31 @@
+.friends-item {
+  width: calc((100% - 40px) / 3);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.friends-item-img {
+  margin: 0 auto 10px;
+}
+
+.friends-item-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.friends-item-status {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+
+  &.green {
+    color: green;
+  }
+
+  &.red {
+    color: red;
+  }
+}
