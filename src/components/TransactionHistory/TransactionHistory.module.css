@@ -1,0 +1,19 @@
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.transaction {
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.transaction-header {
+  background-color: darkgrey;
+}
+
+.transaction-header-title {
+  color: white;
+}
