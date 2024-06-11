@@ -6,3 +6,10 @@
   max-width: 500px;
   width: 100%;
 }
+
+.friends-item {
+  width: calc((100% - 40px) / 3);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
